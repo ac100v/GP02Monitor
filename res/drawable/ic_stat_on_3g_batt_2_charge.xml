@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:drawable="@drawable/ic_stat_on_3g_batt_charge" android:duration="500" />
+    <item android:drawable="@drawable/ic_stat_on_3g_batt_2" android:duration="1500" />
+</animation-list>

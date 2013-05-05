@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GP02Monitor</string>
+    <string name="battery_low">Battery of %s is low</string>
+    <string name="battery_critical">Battery of %s will be empty soon</string>
+    <string name="target_ssid">Router SSID</string>
+    <string name="ssid_setting_header">SSID setting</string>
+    <string name="notify_battery_low">Battery low notification</string>
+    <string name="notify_battery_low_summary">Notify when battery level becomes 1 or less.</string>
+    <string name="hide_icon_condition">Hide icons when disconnected</string>
+    <string name="update_interval">Update interval</string>
+    <string name="run_on_boot">Startup</string>
+    <string name="run_on_boot_summary">Start monitoring on system boot.</string>
+    <string name="notification_setting_header">Notification setting</string>
+    <string name="set_target_ssid">Set current SSID</string>
+    <string name="ssid_not_specified">(not specified)</string>
+    <string name="no_service">no service</string>
+    <string name="charging">(charging) </string>
+    <string name="battery">battery level</string>
+    <string name="router_not_found">%s is not found</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="web_setup">Web</string>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_pref">Preferences</string>
+    <string name="menu_about">About</string>
+    <string name="router_setting_header">Router setting</string>
+    <string name="router_ip_address">Router IP address</string>
+    <string name="icon_design">Icon design</string>
+    <string name="router_model">Router model number</string>
+    
+    <string name="app_name_version">GP02Monitor version 3.02</string>
+    <string name="license">Copyright &#169; 2011-2013 Yusuke Kikuchi &lt;dev@ac100v.net>\n\n
+        					This program is free software: you can redistribute it and/or modify
+    						it under the terms of the GNU General Public License as published by
+    						the Free Software Foundation, either version 3 of the License, or
+    						(at your option) any later version.\n\n
+
+						    This program is distributed in the hope that it will be useful,
+						    but WITHOUT ANY WARRANTY; without even the implied warranty of
+						    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+						    GNU General Public License for more details.\n\n
+						
+						    You should have received a copy of the GNU General Public License
+						    along with this program.  If not, see &lt;http://www.gnu.org/licenses/>.</string>
+    <string name="version_name">3.02</string>
+</resources>

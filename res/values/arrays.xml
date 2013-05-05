@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_update_interval_entries">
+        <item >1 second</item>
+        <item >2 seconds</item>
+        <item >3 seconds</item>
+        <item >5 seconds</item>
+        <item >10 seconds</item>
+        <item >15 seconds</item>
+        <item >20 seconds</item>
+        <item >30 seconds</item>
+    </string-array>
+    <string-array name="list_update_interval_entryvalues">
+        <item >1000</item>
+        <item >2000</item>
+        <item >3000</item>
+        <item >5000</item>
+        <item >10000</item>
+        <item >15000</item>
+        <item >20000</item>
+        <item >30000</item>
+    </string-array>
+    <string-array name="list_hide_icon_condition_entries">
+        <item >Always display</item>
+        <item >While Internet is disconnected</item>
+        <item >While router is disconnected</item>
+    </string-array>
+    <string-array name="list_hide_icon_condition_entryvalues">
+        <item >always_display</item>
+        <item >wan_disconnect</item>
+        <item >router_disconnect</item>
+    </string-array>
+    <string-array name="list_icon_design_entries">
+        <item >battery</item>
+        <item >signal strength</item>
+        <item >battery and signal strength</item>
+    </string-array>
+    <string-array name="list_icon_design_entryvaules">
+        <item >battery</item>
+        <item >signal_strength</item>
+        <item >battery_signal_strength</item>
+    </string-array>
+    <string-array name="router_model_entries">
+        <item >GP02</item>
+        <item >GL04P</item>
+    </string-array>
+    <string-array name="router_model_entryvalues">
+        <item >GP02</item>
+        <item >GL04P</item>
+    </string-array>
+</resources>

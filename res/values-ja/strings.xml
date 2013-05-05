@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GP02Monitor</string>
+    <string name="battery_low">%sの電池残量が低下しています</string>
+    <string name="battery_critical">%sの電池がもうすぐ切れます</string>
+    <string name="target_ssid">ルータのSSID</string>
+    <string name="ssid_setting_header">SSID設定</string>
+    <string name="notify_battery_low">電池残量低下を通知</string>
+    <string name="notify_battery_low_summary">電池残量が1以下になったら通知します</string>
+    <string name="hide_icon_condition">切断時にアイコンを隠す</string>
+    <string name="update_interval">更新間隔</string>
+    <string name="run_on_boot">起動時に監視開始</string>
+    <string name="run_on_boot_summary">システム起動時に監視を開始します</string>
+    <string name="notification_setting_header">通知設定</string>
+    <string name="set_target_ssid">現在のSSIDを設定する</string>
+    <string name="ssid_not_specified">(未設定)</string>
+    <string name="no_service">圏外 </string>
+    <string name="charging">(充電中) </string>
+    <string name="battery">電池残量</string>
+    <string name="router_not_found">%sが見つかりません </string>
+    <string name="connect">接続</string>
+    <string name="disconnect">切断</string>
+    <string name="menu_quit">終了</string>
+    <string name="menu_pref">設定</string>
+    <string name="router_setting_header">ルータ設定</string>
+    <string name="router_ip_address">ルータのIPアドレス</string>
+    <string name="icon_design">通知アイコン</string>
+    <string name="router_model">ルータの機種名</string>
+</resources>

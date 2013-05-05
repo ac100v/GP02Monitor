@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_update_interval_entries">
+        <item >1秒</item>
+        <item >2秒</item>
+        <item >3秒</item>
+        <item >5秒</item>
+        <item >10秒</item>
+        <item >15秒</item>
+        <item >20秒</item>
+        <item >30秒</item>
+    </string-array>
+    <string-array name="list_update_interval_entryvalues">
+        <item >1000</item>
+        <item >2000</item>
+        <item >3000</item>
+        <item >5000</item>
+        <item >10000</item>
+        <item >15000</item>
+        <item >20000</item>
+        <item >30000</item>
+    </string-array>
+    <string-array name="list_hide_icon_condition_entries">
+        <item >常に表示する</item>
+        <item >インターネット切断時</item>
+        <item >ルータ切断時</item>
+        </string-array>
+    <string-array name="list_hide_icon_condition_entryvalues">
+        <item >always_display</item>
+        <item >wan_disconnect</item>
+        <item >router_disconnect</item>
+        </string-array>
+    <string-array name="list_icon_design_entries">
+        <item >電池残量</item>
+        <item >アンテナレベル</item>
+        <item >電池残量+アンテナレベル</item>
+        </string-array>
+</resources>

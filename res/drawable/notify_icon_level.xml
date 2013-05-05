@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:maxLevel="0" android:drawable="@drawable/ic_stat_off_sig_miss" />
+   	<item android:maxLevel="1" android:drawable="@drawable/ic_stat_off_sig_0" />
+	<item android:maxLevel="2" android:drawable="@drawable/ic_stat_off_sig_1" />
+	<item android:maxLevel="3" android:drawable="@drawable/ic_stat_off_sig_2" />
+	<item android:maxLevel="4" android:drawable="@drawable/ic_stat_off_sig_3" />
+   	<item android:maxLevel="5" android:drawable="@drawable/ic_stat_on_3g_sig_0" />
+	<item android:maxLevel="6" android:drawable="@drawable/ic_stat_on_3g_sig_1" />
+	<item android:maxLevel="7" android:drawable="@drawable/ic_stat_on_3g_sig_2" />
+	<item android:maxLevel="8" android:drawable="@drawable/ic_stat_on_3g_sig_3" />
+   	<item android:maxLevel="9" android:drawable="@drawable/ic_stat_on_lte_sig_0" />
+	<item android:maxLevel="10" android:drawable="@drawable/ic_stat_on_lte_sig_1" />
+	<item android:maxLevel="11" android:drawable="@drawable/ic_stat_on_lte_sig_2" />
+	<item android:maxLevel="12" android:drawable="@drawable/ic_stat_on_lte_sig_3" />
+</level-list>

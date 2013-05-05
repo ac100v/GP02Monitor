@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/router_setting_header">
+		<ListPreference android:entryValues="@array/router_model_entryvalues" android:entries="@array/router_model_entries" android:defaultValue="GP02" android:key="key_router_model" android:title="@string/router_model" /><EditTextPreference android:key="key_temp_router_ip_addr" android:title="@string/router_ip_address" android:inputType="text" />
+		
+	</PreferenceCategory><PreferenceCategory android:title="@string/notification_setting_header">
+        <CheckBoxPreference android:title="@string/run_on_boot" android:key="key_run_on_boot" android:summary="@string/run_on_boot_summary" android:defaultValue="false" />
+        <ListPreference android:key="key_update_interval" android:title="@string/update_interval" android:entryValues="@array/list_update_interval_entryvalues" android:entries="@array/list_update_interval_entries" android:defaultValue="5000" />
+        <ListPreference android:key="key_hide_icon_condition" android:title="@string/hide_icon_condition" android:entries="@array/list_hide_icon_condition_entries" android:entryValues="@array/list_hide_icon_condition_entryvalues" android:defaultValue="always_display"/>
+        <CheckBoxPreference android:key="key_notify_battery" android:summary="@string/notify_battery_low_summary" android:title="@string/notify_battery_low" android:defaultValue="true" />
+        <ListPreference android:entryValues="@array/list_icon_design_entryvaules" android:entries="@array/list_icon_design_entries" android:defaultValue="battery" android:title="@string/icon_design" android:key="key_icon_design"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ssid_setting_header">
+        <EditTextPreference android:selectable="true" android:key="key_target_ssid" android:title="@string/target_ssid" android:defaultValue="" android:inputType="text" />
+        <Preference android:key="key_set_target_ssid" android:title="@string/set_target_ssid"/>
+        
+	</PreferenceCategory>
+</PreferenceScreen>
